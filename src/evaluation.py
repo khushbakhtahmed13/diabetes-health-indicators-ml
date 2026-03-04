@@ -123,5 +123,5 @@ def get_regression_metrics(model, x_train, y_train, x_test, y_test):
     print(f"Mean Absolute Error = {mae:.2f}")
     print(f"Mean Squared Error = {mse:.2f}")
     print(f"Root Mean Squared Error = {rmse:.2f}")
-    print(f"Training R² = {model.score(x_train, y_train):.2f}")
-    print(f"Testing R² = {r2:.2f}")
+    print(f"Training R² = {model.score(x_train, y_train):.4f}")
+    print(f"Testing R² = {r2:.4f}")
